@@ -1,0 +1,21 @@
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input.ng-touched.ng-invalid {
+    border-color: red;
+  }
+  
+  input.ng-touched.ng-valid {
+    border-color: green;
+  }
+  
+  div[hidden] {
+    display: none;
+  }
+  
